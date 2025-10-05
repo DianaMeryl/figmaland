@@ -1,21 +1,407 @@
+<!-- Frontend - Homewok-01 - html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figmaland</title>
 </head>
+
 <body>
-    <header class="header">
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+  <div style="width: 100%; max-width: 1177.34px; margin: 0 auto">
+    <header>
+      <div>
+        <nav>
+          <ul style="list-style: none">
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> Product </a>
+            </li>
+            <li>
+              <a href="#"> Pricing </a>
+            </li>
+            <li>
+              <a href="#"> About </a>
+            </li>
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+        <div style="background-color: black">
+          <img src="/assets/images/logo-center.png" alt="logo" />
+        </div>
+        <div style="background-color: black">
+          <a href="#" target="_blank" aria-label="twitter">
+            <img src="/assets/icons/twitter.svg" alt="twitter" />
+          </a>
+          <a href="#" target="_blank" aria-label="Facebook">
+            <img src="/assets/icons/facebook.svg" alt="facebook" />
+          </a>
+          <a href="#" target="_blank" aria-label="Linkedin">
+            <img src="/assets/icons/linkedin.svg" alt="Linkedin" />
+          </a>
+        </div>
+        <div>
+          <h1>The best products start with Figma</h1>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+          <button>Try For Free</button>
+        </div>
+      </div>
     </header>
-    <main class="main">
-        
+    <main>
+      <section>
+        <h2>Features</h2>
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </h4>
+        <div>
+          <article>
+            <img src="/assets/icons/feature-1.svg" alt="feature-1" />
+            <h3>OpenType features Variable fonts</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+          <article>
+            <img src="/assets/icons/feature-2.svg" alt="feature-2" />
+            <h3>Design with real data</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+          <article>
+            <img src="/assets/icons/feature-3.svg" alt="feature-3" />
+            <h3>Dynamic themes</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+        </div>
+        <div style="position: relative">
+          <img src="/assets/images/video-features.jpg" alt="Video preview"
+            style="width: 1177.34px; height: 658.3px; display: block" />
+          <button style="
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: none;
+                background: none;
+                cursor: pointer;
+              ">
+            <img src="/assets/icons/play-button.svg" alt="Play button" />
+          </button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Fastest way to organize</h2>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+          <button>Try For Free</button>
+          <figure style="width: 624.46px; height: 349.17px">
+            <img src="/assets/images/macbook-pro.png" alt="macbook-pro" />
+          </figure>
+        </div>
+      </section>
+      <section>
+        <div>
+          <figure style="width: 677px; height: 514px">
+            <img src="/assets/images/newsletter.png" alt="macbook-pro" />
+          </figure>
+          <h3>At your fingertips</h3>
+          <h2>Lightning fast prototyping</h2>
+          <h3>Subscribe to our Newsletter</h3>
+          <p>Available exclusivery on Figmaland</p>
+          <input type="email" placeholder="Your Email" />
+          <button>Subscribe</button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Partners</h2>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+          <ul style="list-style: none">
+            <li>
+              <figure style="width: 273px; height: 163px">
+                <img src="/assets/images/google.png" alt="google" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 273px; height: 163px">
+                <img src="/assets/images/amazon.png" alt="amazon" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 301.54px; height: 163px">
+                <img src="/assets/images/microsoft.png" alt="microsoft" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 220px; height: 163px">
+                <img src="/assets/images/uber.png" alt="uber" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 309px; height: 163px">
+                <img src="/assets/images/dropbox.png" alt="dropbox" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 273px; height: 163px">
+                <img src="/assets/images/google.png" alt="google" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 220px; height: 163px">
+                <img src="/assets/images/uber.png" alt="uber" />
+              </figure>
+            </li>
+            <li>
+              <figure style="width: 273px; height: 163px">
+                <img src="/assets/images/amazon.png" alt="amazon" />
+              </figure>
+            </li>
+          </ul>
+          <button>Try For Free</button>
+        </div>
+      </section>
+      <section>
+        <h2>Testimonials</h2>
+        <div style="width: 149.85px; height: 59.94px">
+          <img src="/assets/icons/ibm.svg" alt="ibm" />
+        </div>
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </h4>
+        <div>
+          <div>
+            <img src="/assets/images/avatar.png" alt="avatar" />
+          </div>
+          <h5>Organize across</h5>
+          <p>Ui designer</p>
+        </div>
+        <button>More Testimonials</button>
+      </section>
+      <section>
+        <h2>Pricing</h2>
+        <h4>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </h4>
+        <div>
+          <div style="width: 335px; height: 607px">
+            <h3>FREE</h3>
+            <h6>Organize across all apps by hand</h6>
+            <p>
+              <span>0</span>
+              <span>$</span>
+              <span>Per Month</span>
+            </p>
+            <ul>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <button>Order Now</button>
+          </div>
+          <div style="width: 335px; height: 607px">
+            <h3>STANDARD</h3>
+            <h6>Organize across all apps by hand</h6>
+            <p>
+              <span>10</span>
+              <span>$</span>
+              <span>Per Month</span>
+            </p>
+            <ul>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <button>Order Now</button>
+          </div>
+          <div style="width: 335px; height: 607px">
+            <h3>BUSINESS</h3>
+            <h6>Organize across all apps by hand</h6>
+            <p>
+              <span>99</span>
+              <span>$</span>
+              <span>Per Month</span>
+            </p>
+            <ul>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <button>Order Now</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Contact Us</h2>
+          <h4>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </div>
+        <div>
+          <div>
+            <h3>Contact Us</h3>
+            <form action="#" method="post">
+              <fieldset style="width: 453px; height: 669px">
+                <div>
+                  <input type="text" placeholder="Your Name" required />
+                </div>
+                <div>
+                  <input type="email" placeholder="Your Email" required />
+                </div>
+                <div>
+                  <textarea placeholder="Your Message" cols="10" rows="10"></textarea>
+                </div>
+                <button>Send</button>
+              </fieldset>
+            </form>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <img src="/assets/icons/location.svg" alt="location" />
+                  <h5>
+                    6386 Spring St undefined Anchorage, Georgia 12473 United
+                    States
+                  </h5>
+                </div>
+                <div></div>
+              </div>
+              <div>
+                <div>
+                  <img src="/assets/icons/tel.svg" alt="phone" />
+                  <h5>(843) 555-0130</h5>
+                </div>
+                <div></div>
+              </div>
+              <div>
+                <div>
+                  <img src="/assets/icons/email.svg" alt="email" />
+                  <h5>willie.jennings@example.com</h5>
+                </div>
+                <div></div>
+              </div>
+            </div>
+
+            <div></div>
+
+            <div>
+              <a href="#" target="_blank" aria-label="twitter">
+                <img src="/assets/icons/twitter2.svg" alt="twitter" />
+              </a>
+              <a href="#" target="_blank" aria-label="Facebook">
+                <img src="/assets/icons/facebook2.svg" alt="facebook" />
+              </a>
+              <a href="#" target="_blank" aria-label="Linkedin">
+                <img src="/assets/icons/linkedin2.svg" alt="Linkedin" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-        
+    <footer>
+      <div style="background-color: rgb(1, 1, 40); color:white">
+        <div>
+          <h3>Pages</h3>
+          <nav>
+            <ul style="list-style: none">
+              <li>
+                <a href="#" style="color: white; text-decoration: none;"> Home </a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;"> Product </a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;"> Pricing </a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;"> About </a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;"> Contact </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <h3>Tomothy</h3>
+          <ul style="list-style: none">
+            <li>Eleanor Edwards</li>
+            <li>Ted Robertson</li>
+            <li>Annette Russell</li>
+            <li>Jennie Mckinney</li>
+            <li>Gloria Richards</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Jane Black</h3>
+          <ul style="list-style: none">
+            <li>Philip Jones</li>
+            <li>Product</li>
+            <li>Colleen Russell</li>
+            <li>Marvin Hawkins</li>
+            <li>Bruce Simmmons</li>
+          </ul>
+        </div>
+
+        <div>
+          <div>
+            <img src="/assets/icons/location2.svg" alt="location" />
+            <p>7480 Mockingbird Hill undefined </p>
+          </div>
+          <div>
+            <img src="/assets/icons/tel2.svg" alt="phone" />
+            <p>(239) 555-0108</p>
+          </div>
+          <div>
+            <a href="#" target="_blank" aria-label="twitter">
+              <img src="/assets/icons/twitter.svg" alt="twitter" />
+            </a>
+            <a href="#" target="_blank" aria-label="Facebook">
+              <img src="/assets/icons/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#" target="_blank" aria-label="Linkedin">
+              <img src="/assets/icons/linkedin.svg" alt="Linkedin" />
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
+  </div>
 </body>
+
 </html>
